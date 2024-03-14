@@ -4,8 +4,19 @@
 . Package.json is a configuration for npm. Packages are also known as dependencies.
 . Add Bundler dependency to the code. Bundler helps you clean and pack all the code. Bundle bundles the app to send to production.
 . In the project we will be using Parcel.
+. In terminal, -D is for developer enviroment. Requires more clarification.
 . ~2.8.3 and ^2.8.3 what is the difference. ~ will download only the major compatible updates of the package whereas ^ will also update the minor updates.
 . package-lock.json keeps a track of exact version that is being installed.
 . In package-lock.json, we can find integrity under parcel. Integrity is a hash.Sometimes when the project breaks in production it is responsible.
 . Dependencies can have their own dependencies. This is called transitive dependencies.
+. node_modules can be deleted/added in gitignore list. Can be added back using npm install.
+
+***Part 2***
+. npx parcel <file.html>
+. In terminal, i and install is same same.
+. <script type="module" src="./app.js"></script> type needs to be declared as module as it is not a normal javascript
+. Parcel: It does HMR(Hot Module Replacement), Dev Build, Local Server, File Watching Algorithm(Written in C++), Caching(Faster build)
+    , Image Optimization, Minifictaion, Bundling, Compressing, Consistence Hashing, Code Splitting, Differential Bundling(Support older browsers)
+    , Diagnostic, Error Handling, Https, Tree Shaking(remove unused code)
+. npx parcel build index.html: build is used for prod environment. remove line 4 with app.js from package.json.
 . 
