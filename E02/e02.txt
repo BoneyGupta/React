@@ -1,0 +1,11 @@
+***Part 1***
+. NPM doesn't stand for Node Package Manager. It has no full form.
+. Add npm init in the folder.
+. Package.json is a configuration for npm. Packages are also known as dependencies.
+. Add Bundler dependency to the code. Bundler helps you clean and pack all the code. Bundle bundles the app to send to production.
+. In the project we will be using Parcel.
+. ~2.8.3 and ^2.8.3 what is the difference. ~ will download only the major compatible updates of the package whereas ^ will also update the minor updates.
+. package-lock.json keeps a track of exact version that is being installed.
+. In package-lock.json, we can find integrity under parcel. Integrity is a hash.Sometimes when the project breaks in production it is responsible.
+. Dependencies can have their own dependencies. This is called transitive dependencies.
+. 
